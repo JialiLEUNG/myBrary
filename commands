@@ -1,0 +1,10 @@
+npm init -y // initialize project, default all params to yes
+            // change index.js to server.js
+            
+npm i express ejs express-ejs-layouts // install dependencies needed to get a basic express server up and running
+
+npm i --save-dev nodemon
+
+npm run devStart
+
+npm i mongoose 
