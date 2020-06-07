@@ -8,3 +8,10 @@ npm i --save-dev nodemon
 npm run devStart
 
 npm i mongoose 
+
+heroku login
+heroku git:remote -a mylibrary-web-dev-sync
+git push heroku master
+
+
+npm i body-parser
